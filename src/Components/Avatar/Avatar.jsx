@@ -1,21 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-const Avatar = ({children, backgroundColor, px, py, color, borderRadius, fontSize, cursor}) => {
+const Avatar = ({ children, backgroundColor, px, py, color, borderRadius, fontSize, cursor }) => {
   const style = {
     backgroundColor,
-    padding: '${py} ${px}',
-    color: color||'black',
+    padding: `${py} ${px}`, // Use backticks for template literals
+    color: color || 'black',
     borderRadius,
     fontSize,
-    textAlign:"center",
-    cursor: cursor||null
-  }
+    textAlign: "center",
+    cursor: cursor || null,
+  };
 
   return (
     <div style={style}>
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default Avatar
+export default Avatar;

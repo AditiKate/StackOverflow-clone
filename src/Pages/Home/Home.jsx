@@ -7,11 +7,12 @@ import '../../App.css'
 const Home = () => {
   return (
     <div className='home-container-1'>
-      <LeftSidebar/>
+      {/* <LeftSidebar/>
       <div className='home-container-2'>
         <HomeMainbar/>
         <RightSidebar/>
-      </div>
+      </div> */}
+   <h1>This is Home page</h1>
     </div>
   )
 }
